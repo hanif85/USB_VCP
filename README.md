@@ -2,7 +2,8 @@
 
 USB VCP make development more easy and can reduce hardware like rs232 in board that make impact reduce size of board and reduce cost.
 This Example code is for easy use when use to send data from STM32 to PC from USB. 
-Just add this in **main.c
+Just add this in main.c
+
 '''C/C++
   int _write(int file, uint8_t *ptr, int len){
 	static uint8_t rc = USBD_OK;
@@ -17,4 +18,4 @@ Just add this in **main.c
 }
 '''
 
-and to send data just use **printf("hello data");
+and to send data just use printf("hello data");
